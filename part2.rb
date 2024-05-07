@@ -1,5 +1,11 @@
-# 2) Update your Ruby program from question one such that it prints a short message after the grand total.
+# Student name: Chris Smith
+# Student ID: 0406238
+# Course: WEBD-3011 (255589) Agile Full Stack Web Development
+# Instructor: Diogo Iwasaki
+# Date: May 7th, 2024
 
+#ASSIGNMENT INSTRUCTIONS
+# 2) Update your Ruby program from question one such that it prints a short message after the grand total.
 # If the grand total is equal to or less than $5.00 then message should be: "Pocket Change"
 # If the grand total is greater than $5.00 but less than $20 the message should be: "Wallet Time"
 # If the grand total is equal to or greater than $20 the message should be: "Charge It!"

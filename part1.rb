@@ -1,7 +1,12 @@
+# Student name: Chris Smith
+# Student ID: 0406238
+# Course: WEBD-3011 (255589) Agile Full Stack Web Development
+# Instructor: Diogo Iwasaki
+# Date: May 7th, 2024
+
+#ASSIGNMENT INSTRUCTIONS
 # ) Write a Ruby program to calculate the after tax value of a specific dollar amount. 
-
 # Your program must:
-
 # Include a comment block at the top of your file that includes your name.
 # Store a dollar amount in a variable called "sub_total"
 # Store the GST rate and PST rate in constants.
@@ -11,9 +16,7 @@
 # PST: $0.35 - 7%
 # GST: $0.25 - 5%
 # Grand Total: $5.60
- 
 # This output will change when ever you run the program with a new value for sub_total or either of the tax constants.
- 
 # Note: Don't worry about trailing zeros for now. For example, Ruby will display the float 5.60 as 5.6. This is fine.
 
 sub_total = 5.00

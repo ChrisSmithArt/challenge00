@@ -1,5 +1,11 @@
-# 3) Do some research online to figure out how to read keyboard input from Ruby and how to convert strings into floats.
+# Student name: Chris Smith
+# Student ID: 0406238
+# Course: WEBD-3011 (255589) Agile Full Stack Web Development
+# Instructor: Diogo Iwasaki
+# Date: May 7th, 2024
 
+#ASSIGNMENT INSTRUCTIONS
+# 3) Do some research online to figure out how to read keyboard input from Ruby and how to convert strings into floats.
 # Currently the subtotal is hard-coded into your program. Update your code so that the user is asked to type in the sub total. Ensure that you convert what they provide into a float before using it in your calculations.
 
 puts "Please enter your subtotal" #request a subtotal from the user via user input.
