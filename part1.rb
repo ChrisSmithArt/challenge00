@@ -22,7 +22,8 @@ PST_RATE = 0.07
 sub_total_GST = (sub_total*GST_RATE).round(2)
 sub_total_PST = (sub_total*PST_RATE).round(2)
 grand_total = sub_total+sub_total_GST+sub_total_PST
-puts "Subtotal: $#{sub_total}"
-puts "PST: $#{sub_total_PST} - #{(PST_RATE*100).to_i}%"
-puts "GST: $#{sub_total_GST} - #{(GST_RATE*100).to_i}%"
-puts "Grand Total: $#{grand_total.round(2)}"
+
+puts "Subtotal: $#{sub_total}" #print the subtotal to the console
+puts "PST: $#{sub_total_PST} - #{(PST_RATE*100).to_i}%" #print the % of the PST and the subtotal's PST to the console
+puts "GST: $#{sub_total_GST} - #{(GST_RATE*100).to_i}%" #print the % of the GST and the subtotal's GST to the console
+puts "Grand Total: $#{grand_total.round(2)}" #print out the grand total to the console (grand total = subtotal+GST+PST)
