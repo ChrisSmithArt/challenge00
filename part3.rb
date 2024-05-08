@@ -9,7 +9,7 @@
 # Currently the subtotal is hard-coded into your program. Update your code so that the user is asked to type in the sub total. Ensure that you convert what they provide into a float before using it in your calculations.
 
 puts "Please enter your subtotal" #request a subtotal from the user via user input.
-sub_total = gets.to_f
+sub_total = gets.chomp.to_f
 GST_RATE = 0.05
 PST_RATE = 0.07
 sub_total_GST = (sub_total*GST_RATE).round(2)
